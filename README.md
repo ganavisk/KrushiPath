@@ -1,114 +1,44 @@
-# KrushiPath
-Short description Beginner-friendly smart farming platform for crop recommendations based on weather, land, soil, water availability, and budget, with modern farming technologies and step-by-step guidance
-# 🌱 KrushiPath – Smart Farming & Crop Advisor
+# KrushiPath — Detailed Farming Course + Smart Farming & Profit Lab
 
-**A beginner-friendly smart farming platform that helps farmers make informed crop selection, budgeting, and farming technology decisions.**
+## Open the website
+1. Extract `KrushiPath_Modern_Technology_Profit_Lab.zip`.
+2. Open the `KrushiPath` folder.
+3. Double-click `index.html` in a modern browser.
+4. Select a farming type and crop, then open the detailed course.
+5. Each lesson page now includes a modern technology workflow and a low-cost implementation approach.
+6. Open `smart-farm.html` from the homepage or navigation for the technology catalogue, sourcing links, buying checklist, profit calculator, chart, scenarios and market/export comparison.
 
-🌐 **Live Demo:** https://krushipath-crop-advisor.vercel.app
+## Features
+- Beginner Crop Advisor (`crop-advisor.html`): enter a village/taluk or optionally use device GPS, fetch current conditions and a 7-day forecast, and combine them with soil type, drainage, water access, acreage, budget, season and farming goal to rank crops for further investigation. It includes reasons, risk flags, market links and local verification steps.
+- 14 separate detailed lesson pages, each with images, practical steps, field checks, crop context, mistakes, checklists and navigation.
+- Modern technology workflow added to every lesson: field mapping, soil testing, digital input records, precision planting, drip/sensors, fertigation, digital scouting, farm dashboards, harvest measurement, traceability, digital marketing, export compliance and profit analytics.
+- Technology catalogue includes practical workflow, low-cost starting point, supplier/government links and a small number of public vendor list prices.
+- Interactive profit calculator: baseline vs technology scenario, charted revenue/cost/net, break-even price, downside scenario and indicative simple payback.
+- Buyer-channel comparison table and export readiness guidance.
+- Official resource links for Karnataka Agriculture, Soil Health Card, IMD, Agmarknet, e-NAM, APEDA and Government of India farm mechanisation.
+- Responsive layout and browser-local checklist storage.
 
-## 📌 About the Project
+## Financial calculator warning
+The calculator starts with demonstration placeholder values. Replace them with your own crop-specific expected saleable yield, recent buyer price, costs, marketing deductions, technology quote, and measured/defensible assumptions. Technology uplift and savings are user-entered assumptions—not forecasts. Profit can be negative. The calculator does not guarantee returns and may omit costs you have not entered.
 
-KrushiPath is a web-based agricultural guidance platform designed especially for beginners who want to understand farming from the ground up. It helps users explore suitable crop options based on their land conditions, weather, soil characteristics, water availability, and starting budget.
+## Technology purchasing warning
+Vendor prices can change. Ask for written quotes and compare installation, tax, connectivity/subscription, calibration, training, warranty, maintenance, replacement parts and service support. Check current scheme eligibility with the relevant government office; no subsidy is assumed by default. Low-cost garden sensors and kits are not substitutes for professional commercial equipment or laboratory testing.
 
-The project aims to make modern agricultural knowledge more accessible by combining crop planning, practical farming lessons, technology recommendations, and budget awareness in one place.
+## Crop Advisor limitations and location privacy
+The Crop Advisor uses Open-Meteo weather/geocoding services and needs an internet connection. It asks before using device GPS and also works with a typed location. GPS can locate the farm and fetch weather, but cannot remotely identify soil texture, soil depth, pH, salinity, nutrients, drainage, borewell yield or disease history. The crop ranking is a transparent prototype heuristic—not an agronomic model, yield forecast or profit guarantee. The 7-day forecast is not a seasonal rainfall forecast. For a real planting decision, obtain a soil test and confirm current sowing dates, varieties and input recommendations with the local Raitha Samparka Kendra/KVK.
 
-## 🎯 Objectives
+## Agronomy and export warning
+Crop-specific rates, schedules, plant protection, food safety and export requirements depend on crop, variety, field, season and destination. Verify locally with the Raitha Samparka Kendra, Agriculture/Horticulture Department, qualified agronomist, APEDA or the relevant authority and an experienced exporter. Export price is not guaranteed and export can be less profitable than domestic sale.
 
-- Help beginner farmers understand the farming process.
-- Support informed crop selection using available land and weather information.
-- Help farmers consider soil type, drainage, irrigation, acreage, and budget.
-- Introduce modern farming equipment, tools, and agricultural technologies.
-- Explain farming activities from land preparation to harvesting and marketing.
-- Encourage better planning of resources, costs, and farming operations.
+## Files
+- `index.html`: course landing page and crop selection
+- `styles.css`: responsive styling
+- `app.js`: course map and selection
+- `steps/step-01.html` to `steps/step-14.html`: detailed lesson pages with modern technology workflows
+- `smart-farm.html`: technology catalogue, buyer/export strategy and interactive profit lab
+- `smart-farm.js`: calculator and charts
+- `crop-advisor.html` / `crop-advisor.js`: location/weather-aware beginner crop shortlist
 
-## ✨ Key Features
 
-### 🌾 Crop Advisor
-- Explore crop options based on available land and farming conditions.
-- Consider weather, temperature, rainfall, soil, drainage, and water availability where supported.
-- Compare potential crop suitability and important risks.
-- Use acreage and starting-budget information to support planning.
-
-### 🌦️ Weather and Location
-- Explore location-based farming information where supported.
-- Use weather and rainfall information to help assess crop suitability.
-- Consider local environmental conditions when planning cultivation.
-
-### 🚜 Modern Farming Technology
-- Discover modern farming equipment, tools, and technologies.
-- Understand the purpose and practical use of different tools.
-- Explore technology options relevant to different stages of farming.
-
-### 📚 Step-by-Step Farming Guide
-- Learn the major stages of agricultural production.
-- Understand land preparation, seed selection, sowing, irrigation, nutrient management, pest management, harvesting, storage, and marketing.
-- Explore practical guidance intended for people with little or no farming experience.
-
-### 💰 Budget and Resource Planning
-- Consider the initial farming budget and cultivated acreage.
-- Understand major farming expenses and equipment requirements.
-- Compare possible approaches based on available resources.
-
-## 🛠️ Technologies Used
-
-- **HTML5** – Page structure and content
-- **CSS3** – Styling and responsive layouts
-- **JavaScript** – User interactions and application logic
-- **Vercel** – Website deployment and hosting
-- **Weather and location services** – Where configured and supported by the application
-
-## 📂 Project Structure
-
-```text
-KrushiPath/
-├── index.html
-├── styles.css
-├── app.js
-├── crop-advisor.html
-├── crop-advisor.js
-├── smart-farm.html
-├── smart-farm.js
-├── steps/
-└── README.md
-```
-
-*Note: The structure above summarizes the main files. Verify the contents of the `steps` folder and confirm that `smart-farm.js` exists before finalizing the repository.*
-
-## 🚀 How to Run Locally
-
-1. Download or clone this repository.
-2. Open the `KrushiPath` project folder.
-3. Open `index.html` in a web browser.
-
-For a more convenient development workflow, open the folder in Visual Studio Code and use a local development server, such as the Live Server extension.
-
-Some features may require an internet connection, browser location permission, or external service configuration.
-
-## 🌍 Live Deployment
-
-The project is deployed using Vercel:
-
-https://krushipath-crop-advisor.vercel.app
-
-## ⚠️ Important Disclaimer
-
-KrushiPath is an agricultural planning and educational aid. Crop suitability depends on local climate, soil test results, water availability, crop variety, season, pests, and local agricultural practices. Recommendations should be verified with local agricultural experts or a Krishi Vigyan Kendra before making significant farming investments.
-
-Weather, location, and other external-data features depend on the availability and accuracy of their configured services.
-
-## 🔮 Future Enhancements
-
-- More detailed regional crop recommendations
-- Soil testing and soil-health report integration
-- Improved live weather and rainfall integration
-- Crop disease identification and prevention guidance
-- Market-price information and profit estimation
-- Regional-language support
-- More detailed equipment comparisons and cost estimates
-- Personalized farming calendars and reminders
-
-## 👨‍💻 Project Purpose
-
-KrushiPath aims to bridge the gap between traditional farming knowledge and modern agricultural technology by making farming information easier to understand, explore, and apply.
-
-**Learn farming. Plan smarter. Grow sustainably.** 🌱
+## Updated farm-size and budget setup
+The landing page now asks for land area and a starting budget before opening the course. The selected profile is stored in this browser and shown on each lesson's equipment toolkit; the profit lab pre-fills its area. Each of the 14 lessons now includes a structured modern-tool list with purpose, practical use, cost approach, and a sourcing/reference route. Supplier prices, local availability, subsidy eligibility and suitability vary; obtain current written quotes and verify recommendations with local extension staff before spending.
